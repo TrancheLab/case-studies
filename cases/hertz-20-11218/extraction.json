@@ -1,0 +1,262 @@
+{
+  "case_number": "20-11218",
+  "debtor": "The Hertz Corporation",
+  "court": "U.S. Bankruptcy Court, District of Delaware",
+  "filing_type": "Fourth Modified Second Amended Joint Chapter 11 Plan of Reorganization",
+  "petition_date": "2020-05-22",
+  "extracted_at": "2025-05-02T00:00:00Z",
+  "extracted_by": "TrancheLab",
+  "document_pages": 735,
+  "processing_time_seconds": 626,
+  "extraction_confidence": 0.69,
+  "validation_flags": ["APR_CONFLICT"],
+  "rsa_detected": true,
+  "ica_detected": false,
+
+  "capital_structure": {
+
+    "dip_financing": [
+      {
+        "tranche": "DIP Term Loan Facility",
+        "amount": "$1,650,000,000",
+        "amount_normalized": 1650000000,
+        "lender": "DIP Lenders",
+        "priority": 1,
+        "confidence": 0.65,
+        "source_page": 81,
+        "source_section": "Q. Debtor-In-Possession Financing",
+        "source_text": "a superpriority secured debtor-in-possession credit facility comprised of delayed-draw term loans in an aggregate amount of up to $1.65 billion"
+      }
+    ],
+
+    "secured_debt": [
+      {
+        "tranche": "First Lien Term Loan",
+        "amount": "$656,000,000",
+        "amount_normalized": 656000000,
+        "priority": 2,
+        "confidence": 0.75,
+        "source_page": 39,
+        "source_section": "C. The Company's Prepetition Capital Structure",
+        "source_text": "First Lien Term Loan $656 million"
+      },
+      {
+        "tranche": "First Lien Revolving Credit Facility",
+        "amount": "$615,000,000",
+        "amount_normalized": 615000000,
+        "priority": 2,
+        "confidence": 0.75,
+        "source_page": 39,
+        "source_section": "C. The Company's Prepetition Capital Structure",
+        "source_text": "First Lien RCF $615 million"
+      },
+      {
+        "tranche": "First Lien Standalone LC Facility",
+        "amount": "$400,000,000",
+        "amount_normalized": 400000000,
+        "priority": 2,
+        "confidence": 0.80,
+        "source_page": 41,
+        "source_section": "First Lien Standalone LC Facility",
+        "source_text": "The First Lien Standalone LC Facility was established in the original principal amount of $400 million"
+      },
+      {
+        "tranche": "Senior Second Priority Secured Notes",
+        "amount": "$350,000,000",
+        "amount_normalized": 350000000,
+        "priority": 3,
+        "confidence": 0.75,
+        "source_page": 39,
+        "source_section": "C. The Company's Prepetition Capital Structure",
+        "source_text": "Senior Second Priority Secured Notes $350 million"
+      }
+    ],
+
+    "unsecured_debt": [
+      {
+        "tranche": "5.500% Senior Unsecured Notes",
+        "amount": "$800,000,000",
+        "amount_normalized": 800000000,
+        "lender": "Wells Fargo Bank, N.A. (trustee)",
+        "priority": 4,
+        "confidence": 0.65,
+        "source_page": 42,
+        "source_section": "Unsecured Notes",
+        "source_text": "5.500% Unsecured Notes, $800 million"
+      },
+      {
+        "tranche": "6.000% Senior Unsecured Notes",
+        "amount": "$900,000,000",
+        "amount_normalized": 900000000,
+        "lender": "Wells Fargo Bank, N.A. (trustee)",
+        "priority": 4,
+        "confidence": 0.65,
+        "source_page": 42,
+        "source_section": "Unsecured Notes",
+        "source_text": "6.000% Unsecured Notes, $900 million"
+      },
+      {
+        "tranche": "6.250% Senior Unsecured Notes",
+        "amount": "$500,000,000",
+        "amount_normalized": 500000000,
+        "lender": "Wells Fargo Bank, N.A. (trustee)",
+        "priority": 4,
+        "confidence": 0.65,
+        "source_page": 42,
+        "source_section": "Unsecured Notes",
+        "source_text": "6.250% Unsecured Notes, $500 million"
+      },
+      {
+        "tranche": "HHN 5.500% Unsecured Notes",
+        "amount": "$545,000,000",
+        "amount_normalized": 545000000,
+        "priority": 4,
+        "confidence": 0.65,
+        "source_page": 43,
+        "source_section": "(ii) HHN Notes",
+        "source_text": "HHN 5.500% Unsecured Notes $545 million"
+      },
+      {
+        "tranche": "HHN 4.125% Unsecured Notes",
+        "amount": "$245,000,000",
+        "amount_normalized": 245000000,
+        "priority": 4,
+        "confidence": 0.65,
+        "source_page": 43,
+        "source_section": "(ii) HHN Notes",
+        "source_text": "HHN 4.125% Unsecured Notes $245 million"
+      },
+      {
+        "tranche": "7.000% Unsecured Promissory Notes",
+        "amount": "$28,274,394",
+        "amount_normalized": 28274394,
+        "priority": 4,
+        "confidence": 0.75,
+        "source_page": 102,
+        "source_section": "Class 6",
+        "source_text": "The 7.000% Unsecured Promissory Note Claims shall be Allowed against Hertz Corp. in an aggregate amount of $28,274,393.81"
+      },
+      {
+        "tranche": "General Unsecured Claims (allowed)",
+        "amount": "$547,000,000",
+        "amount_normalized": 547000000,
+        "recovery_estimate": "100%",
+        "priority": 4,
+        "confidence": 0.75,
+        "source_page": 27,
+        "source_section": "Class 7",
+        "source_text": "Each Holder of an Allowed General Unsecured Claim... Est. Allowed Amount: $547 million Est. Recovery: 100%"
+      }
+    ],
+
+    "vehicle_financing": [
+      {
+        "tranche": "HVF II U.S. ABS Program (total)",
+        "amount": "$10,893,000,000",
+        "amount_normalized": 10893000000,
+        "priority": 2,
+        "confidence": 0.65,
+        "source_page": 40,
+        "source_section": "Prepetition Capital Structure",
+        "source_text": "HVF II U.S. ABS Program $10,893 million"
+      },
+      {
+        "tranche": "HFLF ABS Notes",
+        "amount": "$1,592,000,000",
+        "amount_normalized": 1592000000,
+        "priority": 2,
+        "confidence": 0.65,
+        "source_page": 47,
+        "source_section": "Donlen Fleet Financing",
+        "source_text": "HFLF ABS Notes Total $1,592 million"
+      },
+      {
+        "tranche": "European ABS Notes",
+        "amount": "$650,000,000",
+        "amount_normalized": 650000000,
+        "lender": "Credit Agricole Corporate and Investment Bank, BNP Paribas",
+        "priority": 2,
+        "confidence": 0.80,
+        "source_page": 48,
+        "source_section": "European ABS Program",
+        "source_text": "the aggregate principal amount of European ABS Notes outstanding, expressed in U.S. Dollars, was approximately $650 million"
+      },
+      {
+        "tranche": "Hertz Canadian Securitization Notes",
+        "amount": "$251,000,000",
+        "amount_normalized": 251000000,
+        "priority": 2,
+        "confidence": 0.80,
+        "source_page": 49,
+        "source_section": "Canadian Securitization",
+        "source_text": "the aggregate principal amount of Hertz Canadian Securitization Notes outstanding, expressed in U.S. Dollars, was approximately $251 million"
+      },
+      {
+        "tranche": "Australian Securitization Notes",
+        "amount": "$149,000,000",
+        "amount_normalized": 149000000,
+        "priority": 2,
+        "confidence": 0.80,
+        "source_page": 49,
+        "source_section": "Australian Securitization",
+        "source_text": "the aggregate principal amount of Australian Securitization Notes outstanding, expressed in U.S. Dollars, was approximately $149 million"
+      }
+    ],
+
+    "exit_financing": [
+      {
+        "tranche": "Exit Term Loan Facility",
+        "amount": "$1,300,000,000",
+        "amount_normalized": 1300000000,
+        "lender": "Barclays Bank PLC, Deutsche Bank Securities Inc., BNP Paribas, RBC Capital Markets, Citizens Bank N.A.",
+        "priority": 2,
+        "confidence": 0.65,
+        "source_page": 29,
+        "source_section": "F. Exit Financing",
+        "source_text": "and a $1.3 billion Exit Term Loan Facility"
+      },
+      {
+        "tranche": "Exit Revolving Credit Facility",
+        "amount": "$1,500,000,000",
+        "amount_normalized": 1500000000,
+        "priority": 2,
+        "confidence": 0.75,
+        "source_page": 20,
+        "source_section": "D. Overview of the Plan",
+        "source_text": "a $1.5 billion revolving credit facility"
+      }
+    ],
+
+    "equity": [
+      {
+        "tranche": "New Preferred Stock",
+        "amount": "$385,000,000",
+        "amount_normalized": 385000000,
+        "priority": 5,
+        "confidence": 0.75,
+        "source_page": 19,
+        "source_section": "D. Overview of the Plan",
+        "source_text": "and the sale of $385 million of new preferred stock"
+      },
+      {
+        "tranche": "Reorganized Hertz Parent Common Interests",
+        "amount": "$2,188,000,000",
+        "amount_normalized": 2188000000,
+        "priority": 5,
+        "confidence": 0.65,
+        "source_page": 29,
+        "source_section": "F. Exit Financing",
+        "source_text": "purchase of, an aggregate amount of $2.188 billion in Reorganized Hertz Parent Common Interests"
+      }
+    ]
+  },
+
+  "rsa": {
+    "signatories": ["Debtors", "Creditors Committee", "Plan Sponsors"],
+    "confidence": 0.50,
+    "source_page": 9,
+    "source_text": "In exchange for the Debtors' agreement to these modifications, the Committee agreed to support the Plan."
+  },
+
+  "notes": "Vehicle financing tranches (HVF II ABS, HFLF) are fleet-level securitizations and sit structurally separate from the corporate capital structure. Confidence scores are deterministic — based on source type, cross-document corroboration, and extraction method. APR_CONFLICT flag indicates potential absolute priority rule tension detected between classes."
+}
